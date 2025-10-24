@@ -1,0 +1,89 @@
+﻿# =========================
+# Build results
+# =========================
+bin/
+obj/
+out/
+debug/
+release/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+[Aa][Rr][Mm]64/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Visual Studio Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# ASP.NET Core
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# =========================
+# User-specific files
+# =========================
+*.dbmdl
+*.bak
+*.sql
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# =========================
+# Packages & Dependencies
+# =========================
+packages/
+node_modules/
+*.nupkg
+*.snupkg
+
+# =========================
+# Publish output
+# =========================
+wwwroot/dist/
+wwwroot/lib/
+publish/
+PublishProfiles/
+
+# =========================
+# Secrets & Environment
+# =========================
+.env
+secrets.json
+
+# =========================
+# JetBrains Rider
+# =========================
+.idea/
+*.iml
+
+# =========================
+# Others
+# =========================
+*.tmp
+*.temp
+*.log
+Thumbs.db
+desktop.ini
