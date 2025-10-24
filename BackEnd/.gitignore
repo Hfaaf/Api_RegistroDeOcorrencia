@@ -1,4 +1,4 @@
-﻿# =========================
+# =========================
 # Build results
 # =========================
 bin/
@@ -19,19 +19,23 @@ x86/
 *.log
 
 # =========================
-# Visual Studio
+# Rider (JetBrains)
+# =========================
+.idea/
+.idea/*
+*.sln.iml
+*.iml
+*.ipr
+*.iws
+
+# =========================
+# Visual Studio (caso também use)
 # =========================
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-
-# =========================
-# Visual Studio Code
-# =========================
-.vscode/
-.history/
 
 # =========================
 # ASP.NET Core
@@ -72,12 +76,6 @@ PublishProfiles/
 # =========================
 .env
 secrets.json
-
-# =========================
-# JetBrains Rider
-# =========================
-.idea/
-*.iml
 
 # =========================
 # Others
